@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "Softie1";
+  src: local("AirbnbCerealMedium"),
+    url("../public/fonts/192e369fd43210ef-s.p.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Softie2";
+  src: local("AirbnbCerealMedium"),
+    url("../public/fonts/8058cf5fb2d1e7bc-s.p.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Softie3";
+  src: local("AirbnbCerealMedium"),
+    url("../public/fonts/a2c2e099a5981689-s.p.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.softie_1 {
+  font-family: "Softie1", Fallback, sans-serif;
+}
+
+.softie_2 {
+  font-family: "Softie2", Fallback, sans-serif;
+}
+
+.softie_3 {
+  font-family: "Softie3", Fallback, sans-serif;
+}
+
+@keyframes shine {
+  0% {
+    opacity: 0.5; 
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0.5; 
+  }
+}
+.animate-shine {
+  animation-name: shine; 
+  animation-duration: 1s; 
+  animation-timing-function: ease; 
+  animation-iteration-count: infinite; 
+}
