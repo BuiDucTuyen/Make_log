@@ -26,18 +26,12 @@ const Testimonials = () => {
               <div className='relative border-inherit transition after:absolute after:-top-10 after:hidden after:w-max after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity hover:after:opacity-100 md:after:block md:hover:scale-110 lg:after:left-1/2 lg:after:-translate-x-1/2 after:content-["Stephen_has_cool_hats_🎩"]'>
                 <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border-[3px] border-inherit">
                   <img
+                    className="absolute h-full w-full left-0 top-0 right-0 bottom-0 bg-transparent"
                     alt="Stephen Atwell"
                     loading="lazy"
                     decoding="async"
                     data-nimg="fill"
                     style={{
-                      position: "absolute",
-                      height: "100%",
-                      width: "100%",
-                      left: 0,
-                      top: 0,
-                      right: 0,
-                      bottom: 0,
                       color: "transparent",
                     }}
                     src="stephen.jpg"
@@ -65,18 +59,12 @@ const Testimonials = () => {
               <div className='relative border-inherit transition after:absolute after:-top-10 after:hidden after:w-max after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity hover:after:opacity-100 md:after:block md:hover:scale-110 lg:after:left-1/2 lg:after:-translate-x-1/2 after:content-["Jake_has_a_super_cute_dog_🐶"]'>
                 <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border-[3px] border-inherit">
                   <img
+                    className="absolute h-full w-full left-0 top-0 right-0 bottom-0 bg-transparent"
                     alt="Jake Peterson"
                     loading="lazy"
                     decoding="async"
                     data-nimg="fill"
                     style={{
-                      position: "absolute",
-                      height: "100%",
-                      width: "100%",
-                      left: 0,
-                      top: 0,
-                      right: 0,
-                      bottom: 0,
                       color: "transparent",
                     }}
                     src="jake.jpg"
@@ -103,18 +91,12 @@ const Testimonials = () => {
               <div className='relative border-inherit transition after:absolute after:-top-10 after:hidden after:w-max after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity hover:after:opacity-100 md:after:block md:hover:scale-110 lg:after:left-1/2 lg:after:-translate-x-1/2 after:content-["Mei_is_awesomeee_😄"]'>
                 <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border-[3px] border-inherit">
                   <img
+                    className="absolute h-full w-full left-0 top-0 right-0 bottom-0 bg-transparent"
                     alt="Mei Tao"
                     loading="lazy"
                     decoding="async"
                     data-nimg="fill"
                     style={{
-                      position: "absolute",
-                      height: "100%",
-                      width: "100%",
-                      left: 0,
-                      top: 0,
-                      right: 0,
-                      bottom: 0,
                       color: "transparent",
                     }}
                     src="mei.jpg"
@@ -140,18 +122,12 @@ const Testimonials = () => {
               <div className='relative border-inherit transition after:absolute after:-top-10 after:hidden after:w-max after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity hover:after:opacity-100 md:after:block md:hover:scale-110 lg:after:left-1/2 lg:after:-translate-x-1/2 after:content-["Nick_is_the_chillest_guy_🧊"]'>
                 <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border-[3px] border-inherit">
                   <img
+                    className="absolute h-full w-full left-0 top-0 right-0 bottom-0 bg-transparent"
                     alt="Nick Winter"
                     loading="lazy"
                     decoding="async"
                     data-nimg="fill"
                     style={{
-                      position: "absolute",
-                      height: "100%",
-                      width: "100%",
-                      left: 0,
-                      top: 0,
-                      right: 0,
-                      bottom: 0,
                       color: "transparent",
                     }}
                     src="nick.jpg"
@@ -177,18 +153,12 @@ const Testimonials = () => {
               <div className='relative border-inherit transition after:absolute after:-top-10 after:hidden after:w-max after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity hover:after:opacity-100 md:after:block md:hover:scale-110 lg:after:left-1/2 lg:after:-translate-x-1/2 after:content-["Dani_is_a_fantabulous_photographer_📸"]'>
                 <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full border-[3px] border-inherit">
                   <img
+                    className="absolute h-full w-full left-0 top-0 right-0 bottom-0 bg-transparent"
                     alt="Dani Grant"
                     loading="lazy"
                     decoding="async"
                     data-nimg="fill"
                     style={{
-                      position: "absolute",
-                      height: "100%",
-                      width: "100%",
-                      left: 0,
-                      top: 0,
-                      right: 0,
-                      bottom: 0,
                       color: "transparent",
                     }}
                     src="dani grant.jpg"
