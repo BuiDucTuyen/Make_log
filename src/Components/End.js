@@ -3,7 +3,7 @@ import React from "react";
 const End = () => {
   return (
     <footer className="relative bg-top flex w-full items-center justify-center overflow-hidden bg-blue-600 px-4 pb-12 pt-12 md:px-10 md:pb-44 md:pt-20">
-      <div className="absolute h-full w-full bg-grain brightness-75"></div>
+      <div className="absolute h-full w-full brightness-75"></div>
       <div className="z-10 flex w-full max-w-5xl flex-col gap-y-12 font-medium text-white md:flex-row text-left">
         <dl className="w-full ">
           <dt className="mb-1 border-b-2 border-white/10 pb-2 text-2xl font-semibold md:border-none md:pb-1 md:text-xl">

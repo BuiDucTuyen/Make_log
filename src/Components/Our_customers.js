@@ -4,23 +4,23 @@ const Our_customers = () => {
   return (
     <section className="w-full gap-10 px-4 py-10 md:px-10 md:py-20">
       <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-[inherit]">
-        <h2 className="w-full softie_2 text-center font-display text-6xl font-black uppercase md:text-8xl">
-          <span className="text-sky-500 animate-text">O</span>
-          <span className="text-blue-500 animate-text">u</span>
-          <span className="text-indigo-500 animate-text">r</span>
-          <span className="animate-text"> </span>
-          <span className="text-violet-500 animate-text">c</span>
-          <span className="text-purple-500 animate-text">u</span>
-          <span className="text-fuchsia-500 animate-text">s</span>
-          <span className="text-pink-500 animate-text">t</span>
-          <span className="text-fuchsia-500 animate-text">o</span>
-          <span className="text-purple-500 animate-text">m</span>
-          <span className="text-violet-500 animate-text">e</span>
-          <span className="text-indigo-500 animate-text">r</span>
-          <span className="text-blue-500 animate-text">s</span>
+        <h2 className="w-full softie_2 text-center  text-6xl font-black uppercase md:text-8xl">
+          <span className="text-sky-500 ">O</span>
+          <span className="text-blue-500 ">u</span>
+          <span className="text-indigo-500 ">r</span>
+          <span className=""> </span>
+          <span className="text-violet-500 ">c</span>
+          <span className="text-purple-500 ">u</span>
+          <span className="text-fuchsia-500 ">s</span>
+          <span className="text-pink-500 ">t</span>
+          <span className="text-fuchsia-500 ">o</span>
+          <span className="text-purple-500 ">m</span>
+          <span className="text-violet-500 ">e</span>
+          <span className="text-indigo-500 ">r</span>
+          <span className="text-blue-500 ">s</span>
         </h2>
         <div className="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
-          {/* Testimonial 1 */}
+          
           <div className="flex w-full rotate-0 flex-col gap-4 rounded-3xl p-6 md:p-8 lg:max-w-md lglg:rotate-3 border-purple-950 bg-purple-300 text-purple-950">
             <div className="flex items-center gap-4 border-inherit text-inherit">
               <div className='relative border-inherit transition after:absolute after:-top-10 after:hidden after:w-max after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity hover:after:opacity-100 md:after:block md:hover:scale-110 lg:after:left-1/2 lg:after:-translate-x-1/2 after:content-["Stephen_has_cool_hats_🎩"]'>
@@ -42,7 +42,7 @@ const Our_customers = () => {
                 <h3 className="text-2xl font-bold text-inherit">
                   Stephen Atwell
                 </h3>
-                <h4 className="text-xl font-medium text-inherit opacity-80">
+                <h4 className="text-xl font-medium text-left opacity-80">
                   Armory
                 </h4>
               </div>
@@ -75,7 +75,7 @@ const Our_customers = () => {
                 <h3 className="text-2xl font-bold text-inherit">
                   Jake Peterson
                 </h3>
-                <h4 className="text-xl font-medium text-inherit opacity-80">
+                <h4 className="text-xl font-medium text-left opacity-80">
                   PopSQL
                 </h4>
               </div>
@@ -136,7 +136,7 @@ const Our_customers = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-inherit">Nick Winter</h3>
-                <h4 className="text-xl font-medium text-inherit opacity-80">
+                <h4 className="text-xl font-medium text-left opacity-80">
                   CodeCombat
                 </h4>
               </div>
@@ -167,7 +167,7 @@ const Our_customers = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-inherit">Dani Grant</h3>
-                <h4 className="text-xl font-medium text-inherit opacity-80">
+                <h4 className="text-xl font-medium text-left opacity-80">
                   Jam
                 </h4>
               </div>
