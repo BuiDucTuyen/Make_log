@@ -1,6 +1,6 @@
 import React from "react";
 
-const Testimonials = () => {
+const Our_customers = () => {
   return (
     <section className="w-full gap-10 px-4 py-10 md:px-10 md:py-20">
       <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-[inherit]">
@@ -185,4 +185,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Our_customers;

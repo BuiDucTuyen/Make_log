@@ -3,12 +3,14 @@ import './App.css';
 import End from './Components/End';
 import Letship from './Components/Letship';
 import Our_customer from './Components/Our_customers';
+import Hero2 from './Components/Hero2';
 
 
 function App() {
   return (
     <div className="App ">
-      <Our_customer></Our_customer>
+      <Hero2/>
+     <Our_customer/>
     <Letship/>
     <End/>
     </div>

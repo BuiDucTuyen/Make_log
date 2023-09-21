@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const End = () => {
   return (
     <footer className="relative bg-top flex w-full items-center justify-center overflow-hidden bg-blue-600 px-4 pb-12 pt-12 md:px-10 md:pb-44 md:pt-20">
       <div className="absolute h-full w-full bg-grain brightness-75"></div>
@@ -170,4 +170,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default End;
