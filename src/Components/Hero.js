@@ -498,6 +498,206 @@ function Hero() {
         </div>
       </div>
     </div>
+    <div className="absolute -mt-64 w-full px-4 md:px-10">
+      <div className="marquee mx-auto flex max-w-5xl select-none gap-20 overflow-x-hidden">
+        <ul className="flex min-w-full flex-shrink-0 animate-marqueeScroll_30s_linear_infinite_forwards content-around items-center gap-20 md:animate-marqueeScroll_60s_linear_infinite_forwards">
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Armory"
+              loading="lazy"
+              width="148"
+              height="40"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="armory.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Code Combat"
+              loading="lazy"
+              width="153"
+              height="34"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="code combat.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Orb"
+              loading="lazy"
+              width="113"
+              height="46"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="orb.c2a0ba4d.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Kong"
+              loading="lazy"
+              width="138"
+              height="46"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="kong.44ea9500.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="PopSQL"
+              loading="lazy"
+              width="136"
+              height="32"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="popsql-logo.11388509.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Jam"
+              loading="lazy"
+              width="117"
+              height="48"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="jam.8d925373.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Patch"
+              loading="lazy"
+              width="142"
+              height="36"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="patch-logo.4b3a2850.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Monte Carlo"
+              loading="lazy"
+              width="211"
+              height="32"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="monte-carlo-logo.d856ff4f.svg"
+            />
+          </li>
+        </ul>
+        <ul className="flex min-w-full flex-shrink-0 animate-marqueeScroll_30s_linear_infinite_forwards content-around items-center gap-20 md:animate-marqueeScroll_60s_linear_infinite_forwards">
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Armory"
+              loading="lazy"
+              width="148"
+              height="40"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="armory-logo.ec67c5e6.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Code Combat"
+              loading="lazy"
+              width="153"
+              height="34"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="code combat.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Orb"
+              loading="lazy"
+              width="113"
+              height="46"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="orb.c2a0ba4d.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Kong"
+              loading="lazy"
+              width="138"
+              height="46"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="kong.44ea9500.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="PopSQL"
+              loading="lazy"
+              width="136"
+              height="32"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="popsql-logo.11388509.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Jam"
+              loading="lazy"
+              width="117"
+              height="48"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="jam.8d925373.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Patch"
+              loading="lazy"
+              width="142"
+              height="36"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="patch-logo.4b3a2850.svg"
+            />
+          </li>
+          <li className="leading-0 !text-zinc-200">
+            <img
+              alt="Monte Carlo"
+              loading="lazy"
+              width="211"
+              height="32"
+              decoding="async"
+              data-nimg="1"
+              style={{ color: 'transparent' }}
+              src="monte-carlo-logo.d856ff4f.svg"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
     </section>
   );
 }
