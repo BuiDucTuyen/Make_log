@@ -1,17 +1,18 @@
+// FeaturesSection.js
 import React from "react";
 
-function Hero3() {
+function FeaturesSection() {
   return (
     <section className="w-full gap-10 px-4 py-10 md:px-10 md:py-20">
       <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-[inherit]">
         <div className="grid h-auto w-full auto-rows-min grid-cols-1 gap-4 md:grid-cols-2">
-          <div className="relative flex h-full w-full flex-col gap-8 rounded-3xl p-6 md:p-10 row-span-4 bg-blue-300 text-4xl text-blue-950">
-            <h2 className="font-display softie_1 font-black text-left uppercase">
+          <div className="relative flex h-full w-full flex-col gap-6 rounded-3xl p-6 md:p-10 row-span-4 bg-blue-300 text-4xl text-blue-950">
+            <h2 className="font-display softie_3 text-left font-bold text-4xl">
               Works with your tools
             </h2>
             <div className="flex w-full flex-wrap items-end gap-3">
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1s" }}
               >
                 <img
@@ -27,7 +28,7 @@ function Hero3() {
                 <p className="text-xl font-bold">Aha</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.05s" }}
               >
                 <img
@@ -43,7 +44,7 @@ function Hero3() {
                 <p className="text-xl font-bold">Asana</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.1s" }}
               >
                 <img
@@ -59,7 +60,7 @@ function Hero3() {
                 <p className="text-xl font-bold">Slack</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.15s" }}
               >
                 <img
@@ -75,7 +76,7 @@ function Hero3() {
                 <p className="text-xl font-bold">Github</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.2s" }}
               >
                 <img
@@ -91,7 +92,7 @@ function Hero3() {
                 <p className="text-xl font-bold">Jira</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.25s" }}
               >
                 <img
@@ -107,7 +108,7 @@ function Hero3() {
                 <p className="text-xl font-bold">Linear</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.05s" }}
               >
                 <img
@@ -123,7 +124,7 @@ function Hero3() {
                 <p className="text-xl font-bold">LaunchDarkly</p>
               </div>
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 motion-reduce:animate-none"
+                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
                 style={{ animationDelay: "1.3s" }}
               >
                 <img
@@ -140,8 +141,8 @@ function Hero3() {
               </div>
             </div>
           </div>
-          <div className="relative flex h-full w-full flex-col gap-6 rounded-3xl text-left p-6 md:p-10 row-span-4 bg-blue-300 text-5xl text-blue-950">
-            <h2 className="font-display font-bold uppercase">
+          <div className="relative flex h-full w-full flex-col gap-5 rounded-3xl p-6  md:p-10 row-span-2 bg-indigo-300  text-indigo-950 md:text-5xl">
+            <h2 className=" font-bold softie_3 text-5xl ">
               Get to "done done"
             </h2>
             <div className="relative flex w-full flex-col items-center justify-between gap-3 md:flex-row">
@@ -213,182 +214,35 @@ function Hero3() {
               </div>
             </div>
           </div>
-          <a href="/pricing" className="row-span-2">
-            <div className="relative flex h-full w-full flex-col gap-8 rounded-3xl p-6 md:p-10 group bg-zinc-900 text-[64px] font-black leading-[56px] text-white transition-transform hover:scale-[0.99]">
-              <h2 className="font-display font-black uppercase transition-[letter-spacing] group-hover:tracking-wide">
-                View our pricing
-              </h2>
-            </div>
-          </a>
           <div className="relative flex h-full w-full flex-col rounded-3xl p-6 md:p-10 row-span-3 justify-between gap-8 bg-fuchsia-300 text-4xl text-fuchsia-950 md:text-5xl">
-            <h2 className="font-display text-left font-bold uppercase">
-              Spice up your changes with AI
+            <h2 className="font-display text-left text-5xl  softie_3 font-bold ">
+              Spice up your changes with ai
             </h2>
             <div className="flex flex-col gap-3">
-              <button className="group relative flex w-full items-center justify-between gap-2 rounded-2xl border border-zinc-200 bg-white p-5 text-left text-sm font-bold text-zinc-800 shadow-lg shadow-fuchsia-500/30 transition-transform hover:scale-[0.98] active:scale-[0.96] md:text-xl">
-                <div className="pointer-events-none absolute left-0 h-full w-4">
-                  <svg
-                    width="24"
-                    height="22"
-                    viewBox="0 0 24 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute -left-2 -top-2 text-yellow-400 opacity-0"
-                  >
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="6"
-                      ry="11"
-                      fill="currentColor"
-                    ></ellipse>
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="5"
-                      ry="12"
-                      transform="rotate(90 12 11)"
-                      fill="currentColor"
-                    ></ellipse>
-                  </svg>
-                  <svg
-                    width="24"
-                    height="22"
-                    viewBox="0 0 24 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute left-4 top-4 text-yellow-400 opacity-0"
-                  >
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="6"
-                      ry="11"
-                      fill="currentColor"
-                    ></ellipse>
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="5"
-                      ry="12"
-                      transform="rotate(90 12 11)"
-                      fill="currentColor"
-                    ></ellipse>
-                  </svg>
-                </div>
+              <button className="group relative flex w-full items-center justify-between gap-2 rounded-2xl border border-zinc-200 bg-white p-5 text-left text-sm font-bold text-zinc-800 shadow-lg shadow-fuchsia-500/30 md:text-xl">
+                <div className="pointer-events-none absolute left-0 h-full w-4"></div>
                 <span>Minor Updates and Bug Fixes</span>
-                <div className='relative text-base transition after:absolute after:-top-10 after:left-1/2 after:w-max after:-translate-x-1/2 after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity after:content-["Enhance_🪄"] hover:scale-110 hover:after:opacity-100'>
-                  <svg
-                    width="24"
-                    height="22"
-                    viewBox="0 0 24 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="relative text-indigo-400 opacity-0 transition group-hover:animate-[shaker_0.35s_alternate_infinite] group-hover:opacity-50"
-                  >
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="6"
-                      ry="11"
-                      fill="currentColor"
-                    ></ellipse>
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="5"
-                      ry="12"
-                      transform="rotate(90 12 11)"
-                      fill="currentColor"
-                    ></ellipse>
-                  </svg>
-                </div>
+                <div className='relative text-base transition after:absolute after:-top-10 after:left-1/2 after:w-max after:-translate-x-1/2 after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity after:content-["Enhance_🪄"] hover:scale-110 hover:after:opacity-100'></div>
               </button>
-              <button className="group relative flex w-full items-center justify-between gap-2 rounded-2xl border border-zinc-200 bg-white p-5 text-left text-sm font-bold text-zinc-800 shadow-lg shadow-fuchsia-500/30 transition-transform hover:scale-[0.98] active:scale-[0.96] md:text-xl">
-                <div className="pointer-events-none absolute left-0 h-full w-4">
-                  <svg
-                    width="24"
-                    height="22"
-                    viewBox="0 0 24 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute -left-2 -top-2 text-yellow-400 opacity-0"
-                  >
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="6"
-                      ry="11"
-                      fill="currentColor"
-                    ></ellipse>
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="5"
-                      ry="12"
-                      transform="rotate(90 12 11)"
-                      fill="currentColor"
-                    ></ellipse>
-                  </svg>
-                  <svg
-                    width="24"
-                    height="22"
-                    viewBox="0 0 24 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="absolute left-4 top-4 text-yellow-400 opacity-0"
-                  >
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="6"
-                      ry="11"
-                      fill="currentColor"
-                    ></ellipse>
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="5"
-                      ry="12"
-                      transform="rotate(90 12 11)"
-                      fill="currentColor"
-                    ></ellipse>
-                  </svg>
-                </div>
+              <button className="group relative flex w-full items-center justify-between gap-2 rounded-2xl border border-zinc-200 bg-white p-5 text-left text-sm font-bold text-zinc-800 shadow-lg shadow-fuchsia-500/30  md:text-xl">
+                <div className="pointer-events-none absolute left-0 h-full w-4"></div>
                 <span>Routine App Enhancements</span>
-                <div className='relative text-base transition after:absolute after:-top-10 after:left-1/2 after:w-max after:-translate-x-1/2 after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity after:content-["Enhance_🪄"] hover:scale-110 hover:after:opacity-100'>
-                  <svg
-                    width="24"
-                    height="22"
-                    viewBox="0 0 24 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="relative text-indigo-400 opacity-0 transition group-hover:animate-[shaker_0.35s_alternate_infinite] group-hover:opacity-50"
-                  >
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="6"
-                      ry="11"
-                      fill="currentColor"
-                    ></ellipse>
-                    <ellipse
-                      cx="12"
-                      cy="11"
-                      rx="5"
-                      ry="12"
-                      transform="rotate(90 12 11)"
-                      fill="currentColor"
-                    ></ellipse>
-                  </svg>
-                </div>
+                <div className='relative text-base transition after:absolute after:-top-10 after:left-1/2 after:w-max after:-translate-x-1/2 after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:opacity-0 after:transition-opacity after:content-["Enhance_🪄"] hover:scale-110 hover:after:opacity-100'></div>
               </button>
             </div>
           </div>
+          <a href="/pricing">
+            <div className="row-span-2 relative flex h-full w-full flex-col gap-8 rounded-3xl p-6 md:p-10 group bg-zinc-900 text-[64px] font-black leading-[56px] text-white transition-transform hover:scale-[0.99]">
+              <h2 className="font-display softie_2 font-black uppercase text-left transition-[letter-spacing] group-hover:tracking-wide">
+                View our pricing
+              </h2>
+              <div className="absolute bottom-4 right-4 h-12 w-12 overflow-hidden rounded-full bg-pink-50 text-zinc-900 opacity-25 transition-opacity group-hover:opacity-50"></div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
   );
 }
 
-export default Hero3;
+export default FeaturesSection;

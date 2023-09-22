@@ -6,14 +6,12 @@ import Our_customer from './Components/Our_customers';
 import Hero2 from './Components/Hero2';
 import Hero from './Components/Hero';
 import Hero3 from './Components/Hero3';
-import Navbar from './Components/navbar';
 
 
 function App() {
   return (
     <div className="App ">
-        <navbar/>
-        <Hero />
+      <Hero />
       <Hero2/>
       <Hero3/>
      <Our_customer/>

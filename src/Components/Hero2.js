@@ -15,7 +15,7 @@ const Hero2 = () => {
           </div>
         </div>
         <div className="flex w-full flex-col px-4 md:flex-row md:px-0">
-          <button className="w-full rounded-3xl px-8 py-6 text-left transition hover:bg-zinc-100 bg-zinc-100">
+          <button className="w-full rounded-3xl px-8 py-6 text-left  hover:bg-zinc-100 bg-zinc-100">
             <h2 className="mb-2 text-xl font-bold text-zinc-800">
               Track changes for real
             </h2>
@@ -24,7 +24,7 @@ const Hero2 = () => {
               on prod.
             </p>
           </button>
-          <button className="w-full rounded-3xl px-8 py-6 text-left transition hover:bg-zinc-100">
+          <button className="w-full rounded-3xl px-8 py-6 text-left hover:bg-zinc-100">
             <h2 className="mb-2 text-xl font-bold text-zinc-800">
               Keep your team updated
             </h2>
@@ -33,7 +33,7 @@ const Hero2 = () => {
               understand.
             </p>
           </button>
-          <button className="w-full rounded-3xl px-8 py-6 text-left transition hover:bg-zinc-100">
+          <button className="w-full rounded-3xl px-8 py-6 text-left  hover:bg-zinc-100">
             <h2 className="mb-2 text-xl font-bold text-zinc-800">
               Save time releasing
             </h2>

@@ -74,18 +74,63 @@
 
 @keyframes shine {
   0% {
-    opacity: 0.5; 
+    opacity: 0.5;
   }
   50% {
-    opacity: 1; 
+    opacity: 1;
   }
   100% {
-    opacity: 0.5; 
+    opacity: 0.5;
   }
 }
 .animate-shine {
-  animation-name: shine; 
-  animation-duration: 1s; 
-  animation-timing-function: ease; 
-  animation-iteration-count: infinite; 
+  animation-name: shine;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.bg-rainbow {
+  background: linear-gradient(to bottom, blue, #ff9900, #33cc33, #3399ff, #6633cc);
+  background-size: 100% 600%; /* Điều này tạo hiệu ứng uốn cong */
+  animation: rainbow-animation 10s linear infinite; /* Thêm hiệu ứng chuyển động */
+}
+
+@keyframes rainbow-animation {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+}
+
+
+@keyframes bounceAround {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
+@keyframes loadIn {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+@keyframes shaker {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
 }
