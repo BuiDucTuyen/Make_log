@@ -22,7 +22,7 @@ const End = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="opacity-75 transition-colors hover:opacity-100"
-              href="https://makelog.releases.live"
+              href=""
             >
               Changelog
             </a>
@@ -32,7 +32,7 @@ const End = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="opacity-75 transition-colors hover:opacity-100"
-              href="https://makelog.gitbook.io/makelog"
+              href=""
             >
               Documentation
             </a>
@@ -42,7 +42,7 @@ const End = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="opacity-75 transition-colors hover:opacity-100"
-              href="https://app.makelog.com"
+              href=""
             >
               Log in
             </a>
@@ -71,7 +71,7 @@ const End = () => {
           <dd className="mb-2 first-of-type:pt-2">
             <a
               className="opacity-75 transition-colors hover:opacity-100"
-              href="mailto:support@makelog.io"
+              href=""
             >
               Contact
             </a>
@@ -126,7 +126,7 @@ const End = () => {
               rel="noopener noreferrer"
               className="rounded-2xl p-3 transition-colors hover:bg-white/10"
               aria-label="Makelog Twitter / X"
-              href="https://twitter.com/makelogio"
+              href=""
             >
               <svg
                 width="22"

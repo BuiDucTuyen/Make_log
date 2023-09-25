@@ -24,7 +24,7 @@ const Letship = () => {
             </p>
           </div>
           <a
-            className="mx-auto flex items-center justify-center border bg-zinc-900 text-white border-transparent px-6 py-4 text-lg font-bold rounded-2xl hover:opacity-80 transition-opacity block w-full !bg-purple-600 md:mx-0 md:w-max"
+            className="mx-auto flex items-center justify-center border bg-zinc-900 text-white border-transparent px-6 py-4 text-lg font-bold rounded-2xl hover:opacity-80 transition-opacity w-full !bg-purple-600 md:mx-0 md:w-max"
             aria-label="Log in or Sign up"
             href="https://app.makelog.com"
           >
