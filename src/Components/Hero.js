@@ -407,7 +407,7 @@ function Hero() {
         </div>
       </div>
       <div className="absolute -mt-64 w-full px-4 md:px-10">
-        <div className="marquee mx-auto flex max-w-5xl select-none gap-20 overflow-x-hidden">
+        <div className="marquee-element mx-auto flex max-w-5xl  select-none gap-20 overflow-x-hidden">
           <ul className="flex min-w-full flex-shrink-0 animate-marqueeScroll_30s_linear_infinite_forwards content-around items-center gap-20 md:animate-marqueeScroll_60s_linear_infinite_forwards">
             <li className="leading-0 !text-zinc-200">
               <img

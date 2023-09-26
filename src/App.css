@@ -90,20 +90,27 @@
   animation-iteration-count: infinite;
 }
 .bg-rainbow {
-  background: linear-gradient(to bottom, blue, #ff9900, #33cc33, #3399ff, #6633cc);
+  background: linear-gradient(
+    to bottom,
+    blue,
+    #ff9900,
+    #33cc33,
+    #3399ff,
+    #6633cc
+  );
   background-size: 100% 600%; /* Điều này tạo hiệu ứng uốn cong */
   animation: rainbow-animation 10s linear infinite; /* Thêm hiệu ứng chuyển động */
 }
 
 @keyframes rainbow-animation {
-  0%, 100% {
+  0%,
+  100% {
     background-position: 0 0;
   }
   50% {
     background-position: 0 100%;
   }
 }
-
 
 @keyframes bounceAround {
   0% {
@@ -141,4 +148,7 @@
   100% {
     transform: translateX(calc(-100% - 80px));
   }
+}
+.marquee-element {
+  animation: marqueeScroll 30s linear infinite forwards;
 }
