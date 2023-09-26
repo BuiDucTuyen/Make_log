@@ -12,8 +12,8 @@ function FeaturesSection() {
             </h2>
             <div className="flex w-full flex-wrap items-end gap-3">
               <div
-                className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1s" }}
+                className="flex h-max w-max animate-bounceAround rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50"
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Aha logo"
@@ -29,7 +29,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.05s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Asana logo"
@@ -45,7 +45,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.1s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Slack logo"
@@ -61,7 +61,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.15s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Github logo"
@@ -77,7 +77,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.2s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Jira logo"
@@ -93,7 +93,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.25s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Linear logo"
@@ -109,7 +109,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.05s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Asana logo"
@@ -125,7 +125,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animationDelay: "1.3s" }}
+                style={{ animation: "bounceAround 2s alternate infinite" }}
               >
                 <img
                   alt="Trello logo"
@@ -145,7 +145,7 @@ function FeaturesSection() {
             <h2 className=" font-bold softie_3 text-5xl ">
               Get to "done done"
             </h2>
-            <div className="relative flex w-full flex-col items-center justify-between gap-3 md:flex-row">
+            <div className="relative flex w-full flex-col items-center justify-between gap-3 md:flex-row ">
               <div className='relative w-full cursor-default text-base transition after:absolute after:opacity-0 md:w-1/3 after:-top-10 after:left-1/2 after:w-max after:-translate-x-1/2 after:rounded-lg after:bg-zinc-700 after:px-3 after:py-1 after:font-bold after:text-white after:transition-opacity hover:after:opacity-100 after:content-["In-Progress_→_Dev"]'>
                 <div className="relative flex gap-2 rounded-2xl border p-4 text-indigo-950 transition duration-500 scale-105 border-zinc-200 bg-white">
                   <svg
@@ -236,7 +236,38 @@ function FeaturesSection() {
               <h2 className="font-display softie_2 font-black uppercase text-left transition-[letter-spacing] group-hover:tracking-wide">
                 View our pricing
               </h2>
-              <div className="absolute bottom-4 right-4 h-12 w-12 overflow-hidden rounded-full bg-pink-50 text-zinc-900 opacity-25 transition-opacity group-hover:opacity-50"></div>
+              <div className="absolute bottom-4 right-4 h-12 w-12 overflow-hidden rounded-full bg-pink-50 text-zinc-900 opacity-25 transition-opacity group-hover:opacity-50">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform duration-300 group-hover:translate-x-[150%]"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="absolute -left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform duration-300 group-hover:translate-x-[150%]"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
             </div>
           </a>
         </div>

@@ -89,18 +89,6 @@
   animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
-.bg-rainbow {
-  background: linear-gradient(
-    to bottom,
-    blue,
-    #ff9900,
-    #33cc33,
-    #3399ff,
-    #6633cc
-  );
-  background-size: 100% 600%; /* Điều này tạo hiệu ứng uốn cong */
-  animation: rainbow-animation 10s linear infinite; /* Thêm hiệu ứng chuyển động */
-}
 
 @keyframes rainbow-animation {
   0%,
@@ -143,12 +131,16 @@
 }
 @keyframes marqueeScroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateX(calc(-100% - 80px));
+    transform: translateX(-100%);
   }
 }
-.marquee-element {
-  animation: marqueeScroll 30s linear infinite forwards;
+
+.run {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marqueeScroll 30s linear infinite;
+  animation-play-state: running;
 }
