@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroBg: "url('../public/backgroup/noise.0b20b4f6.svg')",
+        'gradient-radial': 'radial-gradient(circle, #3498db, transparent 30%)',
       },
     },
   },

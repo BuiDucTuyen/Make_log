@@ -131,16 +131,26 @@
 }
 @keyframes marqueeScroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(calc(-100% - 20px));
   }
 }
 
 .run {
   white-space: nowrap;
   overflow: hidden;
-  animation: marqueeScroll 30s linear infinite;
+  animation: marqueeScroll 50s linear infinite;
   animation-play-state: running;
+}
+.before\:bg-radial::before {
+  content: var(--tw-content);
+  background-image: radial-gradient(50% 50% at 50% 50%,#ffca43 48%,#ff603d 72%,#fc4dd5 88%);
+}
+@keyframes opacityln {
+  100% {
+    opacity: 100%;
+  }
+  
 }

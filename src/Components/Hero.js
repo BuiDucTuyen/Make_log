@@ -41,7 +41,7 @@ function Hero() {
               </li>
               <li>
                 <a
-                  className="mx-auto flex items-center justify-center px-5 py-3 ml-3"
+                  className="mx-auto flex items-center justify-center px-5 py-3 ml-3 border border-current rounded-xl"
                   aria-label="Log in or Sign up"
                   href=""
                 >
@@ -50,7 +50,7 @@ function Hero() {
               </li>
             </ul>
           </nav>
-
+          
           <button
             onClick={toggleMobileMenu}
             className="md:hidden z-[52] p-2 -mr-2 text-white bg-primary-light hover:bg-primary-dark transition-all duration-300 rounded"
@@ -130,7 +130,7 @@ function Hero() {
               <Logo />
             </div>
 
-            <nav className="absolute top-0 left-0 right-0 pt-4 pb-6 px-4 shadow-md">
+            <nav className="absolute top-0 left-0 right-0  pt-16 pb-6 px-4 shadow-md">
               <ul className="flex flex-col text-left gap-5 pt-20 text-2xl softie_1 font-black">
                 <li>
                   <a
@@ -171,8 +171,8 @@ function Hero() {
         )}
       </header>
 
-      <div className="relative -mt-24 flex w-full items-center justify-center overflow-hidden  bg-blue-600 px-4 pb-[400px] pt-52 before:absolute before:top-1/3 before:h-[140%] before:w-[140%] before:rounded-[100%] before:bg-radial before:blur-xl  after:absolute after:bottom-0 after:h-52 after:w-full after:from-white md:px-10">
-        <div className="absolute  h-full w-full "></div>
+      <div className="relative -mt-24 flex w-full items-center justify-center overflow-hidden bg-blue-600 px-4 pb-[400px] pt-52 before:absolute before:top-1/3 before:h-[140%] before:w-[140%] before:rounded-[100%] before:bg-radial before:blur-xl before:content-[''] after:absolute after:bottom-0 after:h-52 after:w-full after:bg-gradient-to-t after:from-white md:px-10">
+        <div className="absolute h-full w-full before:bg-radial"></div>
         <div className="relative w-full max-w-4xl text-center text-white">
           <div className="absolute -top-16 left-0 animate-loadIn motion-reduce:animate-none">
             <svg
@@ -395,7 +395,7 @@ function Hero() {
                 e
               </span>
               <span className=" inline-block animate-loadIn motion-reduce:animate-none">
-                y
+                d
               </span>
             </span>
           </h1>
@@ -414,7 +414,7 @@ function Hero() {
         </div>
       </div>
       <div class="absolute flex -mt-64 w-full px-4 md:px-10">
-        <div class="mx-auto max-w-screen-xl flex select-none gap-10 overflow-x-hidden">
+        <div class="mx-auto max-w-5xl flex select-none gap-10 overflow-x-hidden">
           <div class="marquee-container flex gap-20">
             <ul class="flex min-w-full run flex-shrink-0 content-around items-center gap-20 md:animate-marqueeScroll">
               <li className="leading-0 !text-zinc-200">

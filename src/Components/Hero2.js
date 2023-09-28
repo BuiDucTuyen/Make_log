@@ -7,7 +7,7 @@ const Hero2 = () => {
     setActiveButton(buttonName);
   };
   return (
-    <section className="w-full gap-10 py-10 md:px-10  md:py-20 relative px-0 pb-20 md:pt-8">
+    <section className="w-full h-screen top-[-200px] Hero2 gap-10 py-10 md:px-10  md:py-20 relative px-0 pb-20 md:pt-8 ">
       <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-[inherit]">
         <div className="relative aspect-video w-full shadow-xl shadow-indigo-500/25 md:rounded-3xl md:bg-indigo-400 md:p-3 [&amp;_video]:aspect-video [&amp;_video]:object-cover md:[&amp;_video]:overflow-hidden md:[&amp;_video]:rounded-xl">
           <div className="h-[100%] w-[100%] overflow-hidden rounded-xl">
@@ -19,7 +19,7 @@ const Hero2 = () => {
             ></video>
           </div>
         </div>
-        <div className="flex w-full flex-col px-4 md:flex-row md:px-0">
+        <div className="flex w-full flex-col pt-10 px-4 md:flex-row md:px-0">
       <button
         className={`w-full rounded-3xl px-8 py-6 text-left ${
           activeButton === 'track' ? 'hover:bg-zinc-100 bg-zinc-100' : 'hover:bg-gray-100'

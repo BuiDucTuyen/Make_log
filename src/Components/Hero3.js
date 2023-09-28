@@ -13,7 +13,7 @@ function FeaturesSection() {
             <div className="flex w-full flex-wrap items-end gap-3">
               <div
                 className="flex h-max w-max animate-bounceAround rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50"
-                style={{ animation: "bounceAround 2s alternate infinite" }}
+                style={{ animation: "bounceAround 1s alternate infinite" }}
               >
                 <img
                   alt="Aha logo"
@@ -29,7 +29,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animation: "bounceAround 2s alternate infinite" }}
+                style={{ animation: "bounceAround 1s alternate infinite" }}
               >
                 <img
                   alt="Asana logo"
@@ -45,7 +45,7 @@ function FeaturesSection() {
               </div>
               <div
                 className="flex h-max w-max animate-bounceAround_1s_alternate_infinite gap-2 rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-800 shadow-lg shadow-blue-500/50 "
-                style={{ animation: "bounceAround 2s alternate infinite" }}
+                style={{ animation: "bounceAround 1s alternate infinite" }}
               >
                 <img
                   alt="Slack logo"
