@@ -144,13 +144,13 @@
   animation: marqueeScroll 50s linear infinite;
   animation-play-state: running;
 }
+
 .before\:bg-radial::before {
   content: var(--tw-content);
   background-image: radial-gradient(50% 50% at 50% 50%,#ffca43 48%,#ff603d 72%,#fc4dd5 88%);
 }
 @keyframes opacityln {
   100% {
-    opacity: 100%;
+    opacity: translateX(0);
   }
-  
 }

@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
+import detectEthereumProvider from '@metamask/detect-provider';
 import Logo from "./Logo";
+import Connect from './Connect';
 
 function Hero() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const toggleMobileMenu = () => {
     console.log(1);
     setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
 
+ 
+  };
+  
+   
   return (
     <section>
       <header className="relative z-[51] flex w-full justify-center px-4 pt-10 md:px-10 text-white">
@@ -40,8 +44,11 @@ function Hero() {
                 </a>
               </li>
               <li>
+                <Connect/>
+              </li>
+              <li>
                 <a
-                  className="mx-auto flex items-center justify-center px-5 py-3 ml-3 border border-current rounded-xl"
+                  className="mx-auto flex items-center justify-center px-3 py-2 border border-current rounded-xl"
                   aria-label="Log in or Sign up"
                   href=""
                 >
@@ -50,7 +57,7 @@ function Hero() {
               </li>
             </ul>
           </nav>
-          
+
           <button
             onClick={toggleMobileMenu}
             className="md:hidden z-[52] p-2 -mr-2 text-white bg-primary-light hover:bg-primary-dark transition-all duration-300 rounded"
@@ -259,7 +266,7 @@ function Hero() {
             <span className=" inline-block animate-loadIn text-7xl motion-reduce:animate-none md:hidden md:animate-none">
               s
             </span>
-            <span className="block text-5xl">
+            <span className="block text-5xl ">
               <span className=" inline-block animate-loadIn text-5xl motion-reduce:animate-none md:hidden md:animate-none">
                 R
               </span>
@@ -414,7 +421,7 @@ function Hero() {
         </div>
       </div>
       <div class="absolute flex -mt-64 w-full px-4 md:px-10">
-        <div class="mx-auto max-w-5xl flex select-none gap-10 overflow-x-hidden">
+        <div class="mx-auto  max-w-5xl flex select-none gap-10 overflow-x-hidden">
           <div class="marquee-container flex gap-20">
             <ul class="flex min-w-full run flex-shrink-0 content-around items-center gap-20 md:animate-marqueeScroll">
               <li className="leading-0 !text-zinc-200">
